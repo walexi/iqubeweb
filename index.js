@@ -49,7 +49,7 @@ if (app.get('env') === 'development') {
     });
   });
 }
-app.listen(process.env.PORT || 80);
+app.listen(process.env.PORT || 8081);
 //
 //app.get('/:viewname', function(req,res){
 //    res.render(req.params.viewname);
